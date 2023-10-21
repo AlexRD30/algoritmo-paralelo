@@ -1,14 +1,12 @@
-op= int(input(" Digite una opcion: "))
+op= int(input(" La calificacion: "))
 match op:
-    case 1 :
+    case _ if op >= 90:
         print("A")
-    case 2:
+    case _ if op >= 80:
         print("B")
-    case 3:
+    case _ if op >= 70:
         print("C")
-    case 4:
+    case _ if op >= 60:
         print("D")
-    case 5:
-        print("F")
     case _:
         print("Selecciona una opcion valida")

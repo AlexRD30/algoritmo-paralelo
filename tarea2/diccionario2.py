@@ -1,6 +1,6 @@
-diccionario = {'Estados Unidos':'none',
-'China':  'none',
-'Brasil':'none', 
+diccionario = {'Estados Unidos':None,
+'China':  None,
+'Brasil':None, 
 }
 print(diccionario)
 diccionario['China']='pekin'

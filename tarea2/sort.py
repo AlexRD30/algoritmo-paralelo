@@ -1,5 +1,6 @@
 palabra= ["hola", "aroma", "estar","ser", "amigo"]
-palabra.sort()
 print(palabra)
+palabra.sort()
+print("Orden \n", palabra)
 
 
